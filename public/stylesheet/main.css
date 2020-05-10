@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
+
+.wrapper{
+  margin: 20px;
+  display: flex;
+}
+
+*{
+  box-shadow: border-box;
+}
+.wrapper{
+  margin-top: 20px;
+  display: flex;
+  justify-items: column;
+  /* display: block; */
+}
+h2,h5{
+  font-family: 'Kaushan Script', cursive !important;
+  text-align:center;
+}
+
+.header_btn{
+    text-decoration: none;
+    padding: 12px 25px;
+    background: rgba(230, 126, 7, 0.9);
+    color: #fff;
+    text-shadow: .05em .05em rgba(75,93,104,.1);
+    box-shadow: 0 5px 5px rgba(75,93,104,.1);
+    border-radius: 30px;
+    letter-spacing: .2rem;
+    align-self: center;
+}
+.header_btn:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: rgba(230, 126, 7, 0.5);
+    cursor: pointer;
+}
+
+
+#setting{
+  /* width: 200px; */
+  display: grid;
+  grid-template-columns: 100px 200px;
+  grid-template-rows: 50px 50px 50px 50px 100px;  
+  justify-content: space-around;
+  border-style: outset;
+  border: paleturquoise;
+  margin-top: 10px;
+  align-items: center;
+}
+.btnReset{
+  margin-top: 10px;
+  text-align: center;
+}
+#btnLogin{
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:#0C2B61;
+  cursor: pointer;
+  background-color: coral;
+  transition: .3s ease-out;
+  -webkit-tap-highlight-color: transparent;
+
+}
+#btnLogin:hover{
+  background-color: rgb(252, 175, 146);
+}
+
+.input{
+  width: 200px;
+  border-radius: 5px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
