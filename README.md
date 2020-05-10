@@ -12,9 +12,9 @@
 3. 登入失敗，找不到使用者的email資訊
 
 ## 技術層次
-Node.js + Express建立伺服器
-Express-Handlebars 作為渲染畫面的樣板引擎
-body-parser 作為接收post回傳的request時的解析器
+- Node.js + Express建立伺服器
+- Express-Handlebars 作為渲染畫面的樣板引擎
+- body-parser 作為接收post回傳的request時的解析器
 
 ## 開發環境
 * Node.js: v10.16.0
